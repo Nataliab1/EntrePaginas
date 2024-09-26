@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario - Entre Páginas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>    
+    <header>
+        <nav class="navbar">
+            <div class="menu-icon">
+                <span>&#9776;</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>SEARCH</button>
+            </div>
+            <div class="logo">
+                <img class="Logoo"src="./FILES/LogoEntrepagina.png" alt="Icono de la página" width="150" height="100" >
+            </div>
+        </nav>
+    </header>
+
+    <main class="profile-container">
+        <div class="profile-card">
+            <div class="profile-info">
+                <div class="profile-image">
+                    <img src="default-avatar.png" alt="Avatar">
+                </div>
+                <div class="profile-details">
+                    <h2>Karol Natalia Baron</h2>
+                    <p>kbaron@uniempresarial.edu.co</p>
+                </div>
+            </div>
+
+            <div class="profile-stats">
+                <div class="stat-item">
+                    <p>Respuestas</p>
+                    <span>20</span>
+                </div>
+                <div class="stat-item">
+                    <p>Mejores Respuestas</p>
+                    <span>2</span>
+                </div>
+                <div class="stat-item">
+                    <p>Like</p>
+                    <span>2</span>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h3>ACERCA DE</h3>
+                <ul>
+                    <li><strong>Nivel:</strong> Cuarto Semestre</li>
+                    <li><strong>Registrado:</strong> 22/08/2024</li>
+                    <li><strong>Carrera:</strong> Ingeniería en Software</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="upload-section">
+            <h3>Subir Archivo</h3>
+            <div class="upload-box">
+                <input type="file" id="uploadFile">
+                <label for="uploadFile">
+                    <img src="folder-icon.png" alt="Folder Icon">
+                    <p>Subir Archivo</p>
+                </label>
+            </div>
+            <button class="submit-btn">Enviar</button>
+        </div>
+    </main>
+</body>
+</html>

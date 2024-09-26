@@ -1,0 +1,78 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 300px; /* Se reduce el tamaño del contenedor */
+    padding: 15px; /* Se reduce el relleno para hacerlo más compacto */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+.letras{
+    text-align: left;
+}
+
+.header h1 {
+    font-size: 40px; /* Tamaño de fuente ajustado para "EP" */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header h2 {
+    font-size: 16px; /* Tamaño de fuente ajustado para "Entre Páginas" */
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.form-container h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px; /* Tamaño de fuente más pequeño para las etiquetas */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px; /* Se reduce el padding de los inputs */
+    margin-bottom: 15px; /* Se reduce el margen inferior para compactar */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Tamaño de fuente más pequeño para los inputs */
+}
+
+button {
+    width: 100%;
+    padding: 8px; /* Se reduce el padding del botón */
+    background-color: #73dac6;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px; /* Tamaño de fuente más pequeño para el botón */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5cc2a7;
+}
+
+
